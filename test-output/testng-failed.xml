@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.xyzBank.BankManagerLogin">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="testmethodresult"/>
+          <include name="CloseBrowser"/>
+          <include name="loginPage_02"/>
+          <include name="OpenBrowser"/>
+          <include name="addCurrency"/>
+        </methods>
+      </class> <!-- com.xyzBank.BankManagerLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
